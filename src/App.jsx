@@ -1,6 +1,7 @@
 import "./App.css";
 import Button from "./components/Button.jsx"
 import Alert from "./components/Alert.jsx"
+import Input from "./components/input.jsx"
 
 const buttonBackgroundColor = ["#074EE8", "#07A4E8"];
 const alertProp = [
@@ -45,6 +46,15 @@ function App() {
         ))
         }
       </div>
+
+      {/*คักลอก Alert มาใส่ Input*/}
+      <div className="alert-components-section"> 
+        {/*Render Input 4แบบ*/}
+        {
+          <Input />
+        }
+      </div>
+
     </div>
   );
 }
